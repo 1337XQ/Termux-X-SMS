@@ -62,7 +62,7 @@ apt install git -y
 echo -e "\e[1;34m กำลังขออัปเดตจากแหล่งที่มา..."
 echo -e "\e[1;34m ขอความพยายามสำเร็จ..."
 echo -e "\e[1;34m กำลังอัปเดตตอนนี้..."
-git clone https://github.com/1337XQ/Termux-X-SMS
+git clone https://github.com/1337XQ/Termux-X-SMS.gtt
 if [[ -s Termux-X-SMS/Run.sh ]];then
 cd Termux-X-SMS
 cp -r -f * .. > temp
