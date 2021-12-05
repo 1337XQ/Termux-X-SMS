@@ -1,11 +1,11 @@
-<h1 align="center">FreeSms v2.1</h1>
+<h1 align="center">Termux-X-SMS</h1>
 <p align="center">Anonymous Message Sender for Linux And Termux.</p><br>
 ## บันทึก:
 
 - สคริปต์ต้องใช้การเชื่อมต่อเครือข่ายในการทำงาน
 - จะไม่มีการหักยอดคงเหลือสำหรับการใช้สคริปต์นี้ในการส่ง SMS
 - ห้ามเว้นวรรคระหว่างหมายเลขโทรศัพท์ (เช่น 99999 99999)
-- ตรวจสอบให้แน่ใจว่าคุณใช้ FreeSms . เวอร์ชันล่าสุด
+- ตรวจสอบให้แน่ใจว่าคุณใช้ Termux-X-SMS . เวอร์ชันล่าสุด
 - ตรวจสอบให้แน่ใจว่าคุณใช้ Python v3
 
 วิธีตรวจสอบมีดังนี้ พิมพ์คำสั่งนี้ในเทอร์มินัลของคุณ
@@ -16,7 +16,7 @@ $ หลาม -V
 
 - อย่าใช้สิ่งนี้เพื่อทำร้ายผู้อื่น
 - สคริปต์นี้ใช้เพื่อการศึกษาหรือเล่นตลกเท่านั้น
-- ** ผู้พัฒนาไม่รับผิดชอบต่อการใช้ FreeSms ในทางที่ผิด **
+- ** ผู้พัฒนาไม่รับผิดชอบต่อการใช้ Termux-X-SMS ในทางที่ผิด **
 <br>
 
 ## คุณสมบัติ:
@@ -45,8 +45,8 @@ $ หลาม -V
 ```
 pkg ติดตั้ง git
 pkg ติดตั้ง python
-โคลน git https://github.com/X-HACKRAWI/FreeSms.git
-cd FreeSms
+โคลน git https://github.com/1337XQ/Termux-X-SMS
+cd Termux-X-SMS
 bash Run.sh
 ```
 
@@ -54,8 +54,8 @@ bash Run.sh
 
 ในการส่งข้อความโดยไม่ระบุชื่อให้พิมพ์คำสั่งต่อไปนี้ในเทอร์มินัล Linux:
 ```
-โคลน git https://github.com/X-HACKRAWI/FreeSms.git
-cd FreeSms
+โคลน git https://github.com/1337XQ/Termux-X-SMS
+cd Termux-X-SMS
 sudo bash Run.sh
 ```
  
