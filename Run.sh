@@ -9,7 +9,7 @@ read a10
 if [[ -s update.shield.yemen ]];then
 echo "พบความต้องการทั้งหมด...."
 else
-echo 'Installing....'
+echo 'กำลังติดตั้ง....'
 echo .
 echo .
 apt install figlet toilet python curl ruby -y
@@ -62,12 +62,12 @@ apt install git -y
 echo -e "\e[1;34m กำลังขออัปเดตจากแหล่งที่มา..."
 echo -e "\e[1;34m ขอความพยายามสำเร็จ..."
 echo -e "\e[1;34m กำลังอัปเดตตอนนี้..."
-git clone https://github.com/X-HACKRAWI/FreeSms.git
-if [[ -s FreeSms/Run.sh ]];then
-cd FreeSms
+git clone https://github.com/1337XQ/Termux-X-SMS
+if [[ -s Termux-X-SMS/Run.sh ]];then
+cd Termux-X-SMS
 cp -r -f * .. > temp
 cd ..
-rm -rf  FreeSms>> temp
+rm -rf  Termux-X-SMS>> temp
 rm update.shield.yemen>> temp
 rm temp
 chmod +x Run.sh
