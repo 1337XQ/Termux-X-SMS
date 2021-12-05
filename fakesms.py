@@ -78,7 +78,7 @@ except Exception:
     input('กำลังออก....\n กด Enter เพื่อออก....')
     exit()
 print('\tตรวจสอบการปรับปรุง...')
-ver = urllib.request.urlopen("https://github.com/1337XQ/Termux-X-SMS/blob/main/.version").read().decode('utf-8')
+ver = urllib.request.urlopen("https://raw.githubusercontent.com/1337XQ/Termux-X-SMS/main/.version").read().decode('utf-8')
 verl = ''
 try:
     verl = open(".version", 'r').read()
@@ -92,7 +92,7 @@ print("ยินดีด้วย")
 print("เวอร์ชันของคุณเป็นเวอร์ชันล่าสุด")
 print('\n\tกำลังเริ่ม SMS...\n')
 try:
-    noti = urllib.request.urlopen("https://github.com/1337XQ/Termux-X-SMS/blob/main/.notify").read().decode('utf-8')
+    noti = urllib.request.urlopen("https://raw.githubusercontent.com/1337XQ/Termux-X-SMS/main/.notify").read().decode('utf-8')
     if len(noti) > 10:
         print('\nการแจ้งเตือน : ' + noti + '\n')
 except Exception:
